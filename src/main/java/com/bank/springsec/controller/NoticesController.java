@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class WelcomeController {
-    @GetMapping("/welcome")
+public class NoticesController {
+    @GetMapping("/notices")
     public String sayWelcome(){
-        return "Welcome to Spring Application with security.";
+        return "He are the notices details from the DB";
     }
 }
